@@ -1,4 +1,4 @@
-basic* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,4 +32,12 @@ html{
   border-radius: 0.7rem;
   max-width: 20rem;
   color: blueviolet;
+}
+
+.note-create-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline: 3rem;
+  padding-block: 1rem;
 }
